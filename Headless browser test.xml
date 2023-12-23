@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+<listener class-name ="utililies.Listenerbestbuy"> </listener>
+</listeners>
+<parameter name="url" value="https://www.bestbuy.com/"> </parameter>
+	   <parameter name="browser" value="headlessbrowser"></parameter>
+  <test name="Headless browser Test">
+    <classes>
+      <class name="testcases.TC012_CanadaHomepageTest"/>
+    </classes>
+  </test> <!-- Headless browser Test -->
+</suite> <!-- Suite -->
